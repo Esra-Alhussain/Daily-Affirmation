@@ -1,0 +1,38 @@
+
+body{
+    font-family: 'Arial', sans-serif;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(151, 116, 247);
+    margin: 0;
+}
+
+
+.affirmation-container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: 4px rgb(170, 42, 170) solid;
+    background-color: rgb(243, 148, 243);
+    padding: 20px;
+    color: rgb(101, 10, 101);
+    height: 50vh;
+    width: 50vh;
+}
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(167, 20, 167);
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+
+button:hover{
+    background-color: rgb(151, 116, 247);
+}
